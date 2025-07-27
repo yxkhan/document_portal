@@ -1,5 +1,3 @@
-
-
 import os
 from pathlib import Path
 from src.document_analyzer.data_ingestion import PDFHandler       # Your PDFHandler class
