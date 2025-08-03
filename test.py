@@ -125,10 +125,10 @@ def test_conversational_rag_on_pdf(pdf_path:str, question:str):
                 uploaded_files = [f]
                 ingestor = SingleDocIngestor()
                 retriever = ingestor.ingest_files(uploaded_files)
+                
         print("Running Conversational RAG...")
         session_id = "test_conversational_rag"
         rag = ConversationalRAG(retriever=retriever, session_id=session_id)
-        
         response = rag.invoke(question)
         print(f"\nQuestion: {question}\nAnswer: {response}")
                     
