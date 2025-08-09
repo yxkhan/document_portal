@@ -163,10 +163,7 @@ def test_document_ingestion_and_rag():
             "data\\multi_document_chat\\sample.pdf"
             "data\\multi_document_chat\\state_of_the_union.txt"
         ]
-    
-    
         uploaded_files = []
-        
         for file_path in test_files:
             if Path(file_path).exists():
                 uploaded_files.append(open(file_path, "rb"))
