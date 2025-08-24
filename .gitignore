@@ -24,7 +24,6 @@ faiss_index/
 *.yml
 
 # Notebooks & experiments
-notebook/
 *.ipynb
 .ipynb_checkpoints/
 
@@ -37,10 +36,6 @@ main_archive/
 # Secrets & configs
 .env
 .env.*
-secrets/
-config/*.yaml
-config/*.json
-api_keys.json
 
 # Logs
 logs/
