@@ -27,8 +27,8 @@ main_archive/
 *.pdf
 
 # Secrets & configs
-.env
-.env.*
+# .env
+# .env.*
 
 # Logs
 logs/
